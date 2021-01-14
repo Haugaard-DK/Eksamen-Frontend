@@ -1,6 +1,6 @@
 # Course Assignment 3
 
-[![Build Status](https://travis-ci.com/nicklasanielsen/CA3-Frontend.svg?token=zgehqy9DRGP96w5Nrecw&branch=master)](https://travis-ci.com/nicklasanielsen/CA3-Frontend) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/Haugaard-DK/Eksamen-Frontend.svg?branch=master)](https://travis-ci.com/Haugaard-DK/Eksamen-Frontend) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Frontend
 
