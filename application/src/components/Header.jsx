@@ -40,6 +40,11 @@ export default function Header({ isLoggedIn, setLoggedIn, isAdmin }) {
                     </NavLink>
                   </li>
                 )}
+                <li>
+                  <NavLink activeClassName="active" to="/Eksamen/Booking">
+                    Booking
+                  </NavLink>
+                </li>
               </>
             )}
           </Col>
@@ -73,7 +78,7 @@ export default function Header({ isLoggedIn, setLoggedIn, isAdmin }) {
                     activeClassName="active"
                     to="/Eksamen/fanclub/register"
                   >
-                    Join Our Fan Club!
+                    Register
                   </NavLink>
                 </li>
               </>

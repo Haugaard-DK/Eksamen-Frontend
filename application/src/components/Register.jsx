@@ -67,7 +67,7 @@ export default function Register({ setLoggedIn }) {
 
   return (
     <>
-      <h2>NewBiz Fan Club - Register</h2>
+      <h2>Register</h2>
       <Form onChange={onChange}>
         <Form.Group>
           <Form.Label>Firstname</Form.Label>

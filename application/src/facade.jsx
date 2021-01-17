@@ -2,6 +2,7 @@ import authFacade from "./helperFacades/AuthFacade";
 import jokeFacade from "./helperFacades/JokeFacade";
 import tokenFacade from "./helperFacades/TokenFacade";
 import userFacade from "./helperFacades/UserFacade";
+import bookingFacade from "./helperFacades/BookingFacade";
 
 function Facade() {
   /** Auth related */
@@ -49,6 +50,17 @@ function Facade() {
     return jokeFacade.getRandomJokes(token);
   };
 
+  /** Booking related */
+  const getBookings = () => {
+    let token = tokenFacade.getToken();
+    return bookingFacade.getBookings(token);
+  };
+
+  const bookHotel = () => {
+    let token = tokenFacade.getToken();
+    return bookingFacade.bookHotel(token);
+  };
+
   return {
     /** Auth related */
     login,
@@ -64,6 +76,10 @@ function Facade() {
 
     /** Joke related */
     getJokes,
+
+    /** Booking related */
+    getBookings,
+    bookHotel,
   };
 }
 

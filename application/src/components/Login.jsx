@@ -44,7 +44,7 @@ export default function Login({ setLoggedIn }) {
 
   return (
     <>
-      <h2>NewBiz Fan Club - Login</h2>
+      <h2>Login</h2>
       <Form onChange={onChange}>
         <Form.Group>
           <Form.Label>Username</Form.Label>

@@ -14,6 +14,7 @@ import Profile from "./components/Profile";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import facade from "./facade";
+import Booking from "./components/Booking";
 
 function App() {
   const [isLoggedIn, setLoggedIn] = useState(facade.isLoggedIn());
@@ -68,6 +69,11 @@ function App() {
             path="/Eksamen/profile"
             isLoggedIn={isLoggedIn}
             component={Profile}
+          />
+          <PrivateRoute
+            path="/Eksamen/Booking"
+            isLoggedIn={isLoggedIn}
+            component={Booking}
           />
           <Route path="/Eksamen/fanclub/login">
             <Login setLoggedIn={setLoggedIn} />
